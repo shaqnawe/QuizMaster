@@ -1,0 +1,53 @@
+.list-group-item {
+    background-color: #EEC840;
+    font-family: 'Noto Serif Display', serif;
+}
+.animated {
+    background-image: url(/static/images/quiz.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color:#171717;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+    }
+    
+    @keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}    
+.fadeInDown {
+-webkit-animation-name: fadeInDown;
+animation-name: fadeInDown;
+}
+.banner {
+    color: #7FB652;
+}
+.btn {
+    color: #7FB652;
+}
+.modal {
+    color: #7FB652;
+}
+#close {
+    color: #7FB652;
+    background-color: #EEC840;
+}
